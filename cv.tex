@@ -1,54 +1,11 @@
-%-----------------------------------------------------------------------------------------------------------------------------------------------%
-%	The MIT License (MIT)
-%
-%	Copyright (c) 2021 Jitin Nair
-%
-%	Permission is hereby granted, free of charge, to any person obtaining a copy
-%	of this software and associated documentation files (the "Software"), to deal
-%	in the Software without restriction, including without limitation the rights
-%	to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-%	copies of the Software, and to permit persons to whom the Software is
-%	furnished to do so, subject to the following conditions:
-%	
-%	THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-%	IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-%	FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-%	AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-%	LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-%	OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
-%	THE SOFTWARE.
-%	
-%
-%-----------------------------------------------------------------------------------------------------------------------------------------------%
-
-%----------------------------------------------------------------------------------------
-%	DOCUMENT DEFINITION
-%----------------------------------------------------------------------------------------
-
-% article class because we want to fully customize the page and not use a cv template
 \documentclass[a4paper,12pt]{article}
-
-%----------------------------------------------------------------------------------------
-%	FONT
-%----------------------------------------------------------------------------------------
-
-% % fontspec allows you to use TTF/OTF fonts directly
-% \usepackage{fontspec}
-% \defaultfontfeatures{Ligatures=TeX}
-
-% % modified for ShareLaTeX use
-% \setmainfont[
-% SmallCapsFont = Fontin-SmallCaps.otf,
-% BoldFont = Fontin-Bold.otf,
-% ItalicFont = Fontin-Italic.otf
-% ]
-% {Fontin.otf}
 
 %----------------------------------------------------------------------------------------
 %	PACKAGES
 %----------------------------------------------------------------------------------------
 \usepackage{url}
 \usepackage{parskip} 	
+\usepackage{amssymb}
 
 %other packages for formatting
 \RequirePackage{color}
@@ -116,83 +73,137 @@
 % \end{tabularx}
 
 \begin{tabularx}{\linewidth}{@{} C @{}}
-\Huge{Your Name} \\[7.5pt]
-\href{https://github.com/username}{\raisebox{-0.05\height}\faGithub\ username} \ $|$ \ 
-\href{https://linkedin.com/in/username}{\raisebox{-0.05\height}\faLinkedin\ username} \ $|$ \ 
-\href{https://mysite.com}{\raisebox{-0.05\height}\faGlobe \ mysite.com} \ $|$ \ 
-\href{mailto:email@mysite.com}{\raisebox{-0.05\height}\faEnvelope \ email@mysite.com} \ $|$ \ 
-\href{tel:+000000000000}{\raisebox{-0.05\height}\faMobile \ +00.00.000.000} \\
+\Huge{Akshat Sharma} \\[7.5pt]
+\href{https://github.com/Screach37}{\raisebox{-0.05\height}\faGithub\ Screach37} \ $|$ \ 
+\href{https://linkedin.com/in/sharmaakshat37}{\raisebox{-0.05\height}\faLinkedin\ sharmaakshat37} \ $|$ \ 
+\href{https://screach37.github.io/Portfolio}{\raisebox{-0.05\height}\faGlobe \ screach37.github.io/Portfolio} \ $|$ \ 
+\href{mailto:workakshat22@gmail.com}{\raisebox{-0.05\height}\faEnvelope \ workakshat22@gmail.com} \ $|$ \ 
+\href{tel:+917014721442}{\raisebox{-0.05\height}\faMobile \ +91-7014721442} \\
 \end{tabularx}
 
 %----------------------------------------------------------------------------------------
 % EXPERIENCE SECTIONS
 %----------------------------------------------------------------------------------------
 
-%Interests/ Keywords/ Summary
-\section{Summary}
-This CV is automatically generated and deployed using the \href{https://github.com/jitinnair1/autoCV}{autoCV} template along with GitHub Actions such that a new version of the CV is compiled, published and ready for use when the cv.tex file is updated. For details, \href{https://github.com/jitinnair1/autoCV}{click here}.
-
 %Experience
 \section{Work Experience}
 
 \begin{tabularx}{\linewidth}{ @{}l r@{} }
-\textbf{Designation} & \hfill Jan 2021 - present \\[3.75pt]
-\multicolumn{2}{@{}X@{}}{long long line of blah blah that will wrap when the table fills the column width long long line of blah blah that will wrap when the table fills the column width long long line of blah blah that will wrap when the table fills the column width long long line of blah blah that will wrap when the table fills the column width}  \\
-\end{tabularx}
-
-\begin{tabularx}{\linewidth}{ @{}l r@{} }
-\textbf{Designation} & \hfill Mar 2019 - Jan 2021 \\[3.75pt]
+\textbf{1. FAPL India}  \\[3.75pt]
 \multicolumn{2}{@{}X@{}}{
 \begin{minipage}[t]{\linewidth}
     \begin{itemize}[nosep,after=\strut, leftmargin=1em, itemsep=3pt]
-        \item[--] long long line of blah blah that will wrap when the table fills the column width
-        \item[--] again, long long line of blah blah that will wrap when the table fills the column width but this time even more long long line of blah blah. again, long long line of blah blah that will wrap when the table fills the column width but this time even more long long line of blah blah
+        \item[--] Configured Custom Mail Server for FLPL India using Mail Enable
+        \item[--] Live project - mail.faplindia.co
+        \item[--] Manage IIS and configure DNS for webserver and mail server
     \end{itemize}
     \end{minipage}
 }
 \end{tabularx}
 
-%Projects
-\section{Projects}
+\begin{tabularx}{\linewidth}{ @{}l r@{} }
+\textbf{2. Summer Internship - Infosys} & \hfill 1 Sept 2021 - 15 Sept 2021 \\[3.75pt]
+\multicolumn{2}{@{}X@{}}{
+\begin{minipage}[t]{\linewidth}
+    \begin{itemize}[nosep,after=\strut, leftmargin=1em, itemsep=3pt]
+        \item[--] Completed HTML5 course
+        \item[--] Completed High Impact Communication Courses
+    \end{itemize}
+    \end{minipage}
+}
+\end{tabularx}
+
+%Professional Experience
+\section{Professional Experience}
 
 \begin{tabularx}{\linewidth}{ @{}l r@{} }
-\textbf{Some Project} & \hfill \href{https://some-link.com}{Link to Demo} \\[3.75pt]
-\multicolumn{2}{@{}X@{}}{long long line of blah blah that will wrap when the table fills the column width long long line of blah blah that will wrap when the table fills the column width long long line of blah blah that will wrap when the table fills the column width long long line of blah blah that will wrap when the table fills the column width}  \\
+% \textbf{Some Project} & \hfill \href{https://some-link.com}{Link to Demo} \\[3.75pt]
+\multicolumn{2}{@{}X@{}}{2 + years of experience with RedHat Linux 7.x,8x, Debian 8.x and 9.x, CentOS 7.x and 8x, Oracle VM, VM-Ware, Ubuntu 18x,20x.  \newline \newline
+Experience in Designing, Installing and Implementing \textbf{Ansible} configuration
+management system and in writing \textbf{playbooks for Ansible} and deploying
+applications. \newline \newline
+Familiar with designing and deploying container-based production clusters using
+Docker.Experienced with Docker container service. Creating Docker files, Docker Images and Containers. Experience with container-based deployments using Docker, working with Docker images, Docker hub and Docker registries, and clustering them. \newline \newline
+Working with Public Cloud Platform like AWS (Amazon Web Services) and good
+knowledge in using and managing various services like AWS EC2, VPC, CLI, S3,
+Create bucket and object. \newline \newline
+Worked with Amazon IAM console to create custom users and groups. \newline \newline
+Experience on working with various OS like Linux (Red hat, Ubuntu, CentOS),
+UNIX, Windows. \newline \newline
+Knowledge of TCP/IP, UDP, IPv4, IPv6, Sub netting. \newline \newline
+Experience in administration and maintenance of application service like DNS,
+HTTP, Apache, DHCP, SMTP, NFS, FTP and Samba servers. Good understanding on client/server services like NFS, HTTP/HTTPS, SSH, SMTP, POP3. \newline \newline
+2+ years of experience in Video Editing and comfortable in using various video
+editing softwares like DaVinci Resolve, Filmora, Lightworks. \newline \newline
+Excellent problem-solving skills with a strong technical background and good
+interpersonal skills. \newline \newline
+Quick learner and excellent team player having ability to meet tight deadlines and
+work under pressure.
+}  \\
 \end{tabularx}
 
 %----------------------------------------------------------------------------------------
 %	EDUCATION
 %----------------------------------------------------------------------------------------
 \section{Education}
-\begin{tabularx}{\linewidth}{@{}l X@{}}	
-2030 - present & PhD (Subject) at \textbf{University} \hfill \normalsize (GPA: 4.0/4.0) \\
+\begin{tabularx}{\linewidth}{@{}l X@{}}
+2020 - 2024 & B.Tech in \textbf{Computer Science} from SKIT, Jaipur \hfill (GPA: 9.6/10) \\ 
 
-2023 - 2027 & Bachelor's Degree at \textbf{College} \hfill (GPA: 4.0/4.0) \\ 
+2020 & Class 12th CBSE \hfill  (87.9 \%) \\
 
-2022 & Class 12th Some Board \hfill  (Grades) \\
-
-2021 & Class 10th Some Board \hfill  (Grades) \\
+2018 & Class 10th CBSE \hfill  (89.6 \%) \\
 \end{tabularx}
 
 %----------------------------------------------------------------------------------------
-%	PUBLICATIONS
+%	Positions Of Responsibility
 %----------------------------------------------------------------------------------------
-\section{Publications}
-\begin{refsection}[citations.bib]
-\nocite{*}
-\printbibliography[heading=none]
-\end{refsection}
+
+
+\section{Positions Of Responsibility}
+Led a team of 6 for Smart India Hackathon - 2022 and got selected in the Prelims Round of
+SIH-2022.
+
+%----------------------------------------------------------------------------------------
+%	Accomplishments / Additional Details
+%----------------------------------------------------------------------------------------
+\section{Accomplishments / Additional Details}
+\begin{tabularx}{\linewidth}{ @{}l r@{} }
+\multicolumn{2}{@{}X@{}}{
+\begin{minipage}[t]{\linewidth}
+    \begin{itemize}[nosep,after=\strut, leftmargin=1em, itemsep=3pt]
+        \item[--] Certificate of Distinction in Cambridge ESOL Examination Starters, Flyers, KET (Key English Test) and PET (Preliminary English Test).
+        \item[--] Certificate of Distinction in Grade3, Grade 5 and Grade 6 of Trinity College London.
+    \end{itemize}
+    \end{minipage}
+}
+\end{tabularx}
 
 %----------------------------------------------------------------------------------------
 %	SKILLS
 %----------------------------------------------------------------------------------------
 \section{Skills}
 \begin{tabularx}{\linewidth}{@{}l X@{}}
-Some Skills &  \normalsize{This, That, Some of this and that etc.}\\
-Some More Skills  &  \normalsize{Also some more of this, Some more that, And some of this and that etc.}\\  
+Linux, Docker, AWS, Azure, C/C++, HTML, CSS, SaSS, Bootstrap, JS\\  
 \end{tabularx}
 
-\vfill
-\center{\footnotesize Last updated: \today}
+%----------------------------------------------------------------------------------------
+%	Interests
+%----------------------------------------------------------------------------------------
+
+\section{Interests}
+\begin{tabularx}{\linewidth}{ @{}l r@{} }
+\multicolumn{2}{@{}X@{}}{
+\begin{minipage}[t]{\linewidth}
+    \begin{itemize}[nosep,after=\strut, leftmargin=1em, itemsep=3pt]
+        \item[--] Playing cricket
+        \item[--] Listening Music
+        \item[--] Writing songs \newline
+            I love to write and have my own YouTube channel where I upload my Rap songs Channel Name – Aksar Official.
+        \item[--] E-Sports \newline
+            I am into gaming and one such game where I can flex my gaming strengths is Valorant, a competitive 5v5 FPS game, where I’ve have played for various teams and have my own team named pH Alpha. I also have a gaming channel on YouTube as Screach Gaming.
+    \end{itemize}
+    \end{minipage}
+}
+\end{tabularx}
 
 \end{document}
